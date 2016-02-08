@@ -1,0 +1,53 @@
+{
+   "background": {
+      "page": "chrome_background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/gray-19.png",
+         "38": "icons/gray-38.png"
+      },
+      "default_popup": "pages/popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "lib/content-script/common-script.js", "lib/content-script/content-script.js", "lib/content-script/preload.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "lib/content-script/content-utils.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "css": [ "lib/content-script/assistant/css/selector.css" ],
+      "js": [ "lib/libs/jquery-1.8.3.min.js", "lib/libs/jquery-ui.min.js", "lib/libs/diff_match_patch.js", "lib/libs/dom.js", "require.js", "lib/utils/common.js", "lib/pages/i18n-helper.js", "lib/content-script/assistant/js/selector.js", "lib/content-script/assistant/js/tools.js", "lib/content-script/assistant/js/assistant.js", "lib/content-script/assistant/js/start-assistant.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": false,
+      "js": [ "lib/content-script/subscribe.js" ],
+      "matches": [ "*://*.abpchina.org/*", "*://*.abpindo.blogspot.com/*", "*://*.abpvn.com/*", "*://*.adblock-listefr.com/*", "*://*.adblock.gardar.net/*", "*://*.adblockplus.org/*", "*://*.adblockplus.me/*", "*://*.adguard.com/*", "*://*.certyficate.it/*", "*://*.code.google.com/*", "*://*.dajbych.net/*", "*://*.fanboy.co.nz/*", "*://*.fredfiber.no/*", "*://*.gardar.net/*", "*://*.github.com/*", "*://*.henrik.schack.dk/*", "*://*.latvian-list.site11.com/*", "*://*.liamja.co.uk/*", "*://*.malwaredomains.com/*", "*://*.margevicius.lt/*", "*://*.nauscopio.nireblog.com/*", "*://*.nireblog.com/*", "*://*.noads.it/*", "*://*.schack.dk/*", "*://*.spam404.com/*", "*://*.stanev.org/*", "*://*.void.gr/*", "*://*.yoyo.org/*", "*://*.zoso.ro/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/green-128.png",
+      "16": "icons/green-16.png",
+      "32": "icons/green-32.png",
+      "48": "icons/green-48.png"
+   },
+   
+   "manifest_version": 2,
+   "minimum_chrome_version": "49.0.0.0",
+   "name": "__MSG_name__",
+   "options_page": "pages/options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "contextMenus" ],
+   "short_name": "__MSG_short_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.17",
+   "web_accessible_resources": [ "elemhidehit.png", "lib/content-script/assistant/css/assistant.css" ]
+}

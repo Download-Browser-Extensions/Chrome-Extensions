@@ -1,0 +1,1307 @@
+<filters-list>
+  <filter>
+    <filterId><![CDATA[1]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Russian filter]]></name>
+    <description><![CDATA[Filter that enables removing of the ads from websites in Russian.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#russian]]></homepage>
+    <version><![CDATA[1.0.27.94]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T17:52:42.204+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[6]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=1]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[ru]]></language>
+      <language><![CDATA[by]]></language>
+      <language><![CDATA[ua]]></language>
+      <language><![CDATA[kz]]></language>
+    </languages>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Російський фільтр]]></name>
+        <description><![CDATA[Дозволяє видалили рекламу з російськомовних сайтів.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Русский фильтр]]></name>
+        <description><![CDATA[Фильтр, позволяющий убрать рекламу с сайтов на русском языке.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Russian filter]]></name>
+        <description><![CDATA[Filter that enables blocking of ads on websites in Russian.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Russischer Filter]]></name>
+        <description><![CDATA[Filter, der das Entfernen von Anzeigen auf Websites mit russischen Inhalt ermöglicht.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro para ruso]]></name>
+        <description><![CDATA[Filtro que permite el bloqueo de anuncios de sitios web en ruso.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro russo]]></name>
+        <description><![CDATA[Filtro que permite o bloqueio de anúncios em sites em russo.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za ruski]]></name>
+        <description><![CDATA[Filter koji omogućava blokiranje oglasa na sajtovima na ruskom.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[ロシア語フィルター。]]></name>
+        <description><![CDATA[ロシアのウェブサイト上の広告をブロックするフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[2]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[English filter]]></name>
+    <description><![CDATA[Based on EasyList. Filter that enables removing of the ads from websites with English content.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#english]]></homepage>
+    <version><![CDATA[1.0.69.70]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T17:59:31.041+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[1]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=2]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[en]]></language>
+    </languages>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Англійський фільтр]]></name>
+        <description><![CDATA[Дозволяє видалили рекламу з англомовних сайтів.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[English filter]]></name>
+        <description><![CDATA[Based on EasyList. Filter that enables blocking of ads on websites with English content.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Английский фильтр]]></name>
+        <description><![CDATA[Основан на EasyList. Фильтр, позволяющий убрать рекламу с сайтов на английском языке.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Englischer Filter]]></name>
+        <description><![CDATA[Filter, der das Entfernen von Anzeigen auf Websites mit englischen Inhalt ermöglicht.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro para inglés]]></name>
+        <description><![CDATA[Filtro que permite el bloqueo de anuncios de sitios con contenido en inglés.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro inglês]]></name>
+        <description><![CDATA[Filtro que permite o bloqueio de anúncios em sites com conteúdo em Inglês.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za engleski]]></name>
+        <description><![CDATA[Filter koji omogućava blokiranje oglasa na sajtovima sa sadržajem na engleskom.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[英語フィルター。]]></name>
+        <description><![CDATA[英語コンテンツがあるウェブサイト上の広告をブロックするフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[3]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Spyware filter]]></name>
+    <description><![CDATA[The most comprehensive list of various online counters and web analytics tools. If you do not want your actions on the Internet be tracked, use this filter.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#privacy]]></homepage>
+    <version><![CDATA[1.0.3.58]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-18T22:19:23.445+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[2]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=3]]></subscriptionUrl>
+    <languages/>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Фільтр лічильників та системи аналітики]]></name>
+        <description><![CDATA["Найбільш повний список інтернет-лічильників та систем інтернет-аналітики. Використовуйте цей фільтр, якщо не бажаєте, щоб за вашими діями в інтернеті стежили.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Spyware filter]]></name>
+        <description><![CDATA[The most comprehensive list of various online counters and web analytics tools. If you do not want your actions on the Internet to be tracked, use this filter.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Фильтр счетчиков и системы аналитики]]></name>
+        <description><![CDATA[Наиболее полный список различных интернет-счетчиков и систем интернет-аналитики. Если вы не желаете, чтобы за вашими действиями в интернете следили, используйте этот фильтр.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Spyware-Filter]]></name>
+        <description><![CDATA[Die umfangreichste Liste von verschiedenen Online-Zähler und Web-Analytics-Tools. Wenn Sie nicht möchten, dass Ihre Aktionen im Internet verfolgt werden, verwenden Sie diesen Filter.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro de spyware]]></name>
+        <description><![CDATA[La lista más comprensiva de varios contadores online y herramientas de analítica de webs. Si no quieres que se sigan tus movimientos en Internet, usa este filtro.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro de spyware]]></name>
+        <description><![CDATA[A lista mais abrangente de vários contadores online e ferramentas de web analytics. Se você não quer suas ações na internet rastreadas, use este filtro.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za špijunski softver]]></name>
+        <description><![CDATA[Najsveobuhvatniji spisak raznih onlajn protivnika i alatki za veb analitiku. Ako ne želite praćenje vaših postupaka na internetu, koristite ovaj filter.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[スパイウェアフィルター。]]></name>
+        <description><![CDATA[最も幅広い様々なオンラインカウンターのリストとウェブ分析ツール。インターネット上の操作を追跡されたくない場合、このフィルターを使います。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[4]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Social media filter]]></name>
+    <description><![CDATA[A filter for social media widgets ("Like" buttons and such).]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#social]]></homepage>
+    <version><![CDATA[1.0.7.6]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-19T20:22:26.276+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[3]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=4]]></subscriptionUrl>
+    <languages/>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Фільтр віджетів соціальних мереж]]></name>
+        <description><![CDATA[Фільтр для видалення віджетів соціальних мереж (кнопки]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Social media filter]]></name>
+        <description><![CDATA[Filter for social media widgets ("Like" buttons and such).]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Фильтр виджетов социальных сетей]]></name>
+        <description><![CDATA[Фильтр для виджетов социальных сетей (кнопки "Мне нравится" и тому подобное).]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Social-Media-Filter]]></name>
+        <description><![CDATA[Filter für Widgets der Sozialnetzwerken ("Like"-Buttons und andere).]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro de redes sociales]]></name>
+        <description><![CDATA[Filtro para widgets de redes sociales (botones "Like" y demás).]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro de mídia social]]></name>
+        <description><![CDATA[Filtro para widgets de mídia social (como botões "Like" ).]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za društvene medije]]></name>
+        <description><![CDATA[Filter za vidžete društvenih medija (Dugme "Like" i slična).]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[ソーシャルメディアフィルター。]]></name>
+        <description><![CDATA[ソーシャルメディアウィジェット（“いいね！”ボタンなど）用のフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[5]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Experimental filter]]></name>
+    <description><![CDATA[Filter designed to test certain hazardous filtering rules before they are added to the basic filters.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#experimental]]></homepage>
+    <version><![CDATA[1.0.23.13]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:02:32.268+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[4]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=5]]></subscriptionUrl>
+    <languages/>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Експериментальний фільтр]]></name>
+        <description><![CDATA[Фільтр, призначений для перевірки деяких небезпечних правил фільтрації перед тим, як вони будуть додані в основні фільтри.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Experimental filter]]></name>
+        <description><![CDATA[Filter designed to test certain hazardous filtering rules before they are added to the basic filters.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Экспериментальный фильтр]]></name>
+        <description><![CDATA[Фильтр, предназначенный для проверки некоторых опасных правил фильтрации перед тем как они будут добавлены в основные фильтры.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Experimenteller Filter]]></name>
+        <description><![CDATA[Filter, der zum Testen von bestimmten gefährlichen Filterungsregeln dient, bevor sie dem Basisfilter  hinzugefügt werden.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro experimental]]></name>
+        <description><![CDATA[Filtro diseñado para probar ciertas reglas de filtrado peligrosas antes de que se añadan a los filtros básicos.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro experimental]]></name>
+        <description><![CDATA[Filtro concebido para testar certas regras de filtragem perigosas antes de serem adicionadas aos filtros básicos.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Eksperimentalni filter]]></name>
+        <description><![CDATA[Filter dizajniran da testira određena opasna pravila za filtriranje pre nego što su dodata osnovnim filterima.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[エクスペリメンタルフィルター。]]></name>
+        <description><![CDATA[害を与える可能性があるフィルタリングルールが、基本的なフィルターへ追加される前にテストを行うフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[6]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[German filter]]></name>
+    <description><![CDATA[Filter designed to test certain hazardous filtering rules before they are added to the basic filters.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#german]]></homepage>
+    <version><![CDATA[1.0.21.42]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T17:53:22.938+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[7]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=6]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[de]]></language>
+    </languages>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Німецький фільтр]]></name>
+        <description><![CDATA[Дозволяє видалили рекламу з сайтів з німецькою мовою.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[German filter]]></name>
+        <description><![CDATA[Filter that enables removing of the ads from websites with German content.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Немецкий фильтр]]></name>
+        <description><![CDATA[Фильтр, позволяющий убрать рекламу с сайтов на немецком языке.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Deutscher Filter]]></name>
+        <description><![CDATA[Filter, der das Entfernen von Anzeigen auf Websites mit deutschen Inhalt ermöglicht.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro para alemán]]></name>
+        <description><![CDATA[Filtro que permite el bloqueo de anuncios de sitios con contenido en alemán.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro alemão]]></name>
+        <description><![CDATA[Filtro que permite o bloqueio de anúncios em sites com conteúdo alemão.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za nemački]]></name>
+        <description><![CDATA[Filter koji omogućava blokiranje oglasa na sajtovima sa sadržajem na nemačkom.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[ドイツ語フィルター。]]></name>
+        <description><![CDATA[ドイツ語コンテンツがあるウェブサイト上の広告をブロックするフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[7]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Japanese filter]]></name>
+    <description><![CDATA[Filter that enables removing of the ads from websites in Japanese.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#japanese]]></homepage>
+    <version><![CDATA[1.0.92.87]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-07-23T19:04:06.786+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[8]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=7]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[ja]]></language>
+    </languages>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Японський фільтр]]></name>
+        <description><![CDATA[Дозволяє видалили рекламу з сайтів з японською мовою.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Japanese filter]]></name>
+        <description><![CDATA[Filter that enables blocking of ads on websites in Japanese.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Японский фильтр]]></name>
+        <description><![CDATA[Фильтр, позволяющий убрать рекламу с сайтов на японском языке.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Japanischer Filter]]></name>
+        <description><![CDATA[Filter, der das Entfernen von Anzeigen auf Websites mit japanischen Inhalt ermöglicht.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro para japonés]]></name>
+        <description><![CDATA[Filtro que permite el bloqueo de anuncios de sitios web en japonés.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro japonês]]></name>
+        <description><![CDATA[Filtro que permite o bloqueio de anúncios em sites em japonês.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za japanski]]></name>
+        <description><![CDATA[Filter koji omogućava blokiranje oglasa na sajtovima na japanskom.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[日本語フィルター。]]></name>
+        <description><![CDATA[日本語のウェブサイト上の広告をブロックするフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[8]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Dutch filter]]></name>
+    <description><![CDATA[Filter that enables removing of the ads from websites with Dutch content.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#dutch]]></homepage>
+    <version><![CDATA[1.0.8.53]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-06T16:17:13.381+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[9]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=8]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[nl]]></language>
+    </languages>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Голландський фільтр]]></name>
+        <description><![CDATA[Дозволяє видалили рекламу з сайтів з голландською мовою.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Dutch filter]]></name>
+        <description><![CDATA[Filter that enables blocking of ads on websites with Dutch content.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Голландский фильтр]]></name>
+        <description><![CDATA[Фильтр, позволяющий убрать рекламу с сайтов на голландском языке.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Niederländischer Filter]]></name>
+        <description><![CDATA[Filter, der das Entfernen von Anzeigen auf Websites mit niederländischen Inhalt ermöglicht.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro para holandés]]></name>
+        <description><![CDATA[Filtro que permite el bloqueo de anuncios de sitios con contenido en holandés.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro holandês]]></name>
+        <description><![CDATA[Filtro que permite o bloqueio de anúncios em sites com conteúdo holandês.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za holandski]]></name>
+        <description><![CDATA[Filter koji omogućava blokiranje oglasa na sajtovina sa sadržajem na holandskom.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[オランダ語フィルター。]]></name>
+        <description><![CDATA[オランダ語コンテンツがあるウェブサイト上の広告をブロックするフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[9]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Spanish/Portuguese filter]]></name>
+    <description><![CDATA[Filter that enables removing of the ads from websites in Spanish and Portuguese.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#spanish]]></homepage>
+    <version><![CDATA[1.0.86.8]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-08-21T19:46:45.231+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[10]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=9]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[es]]></language>
+      <language><![CDATA[pt]]></language>
+    </languages>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Іспано-португальський фільтр]]></name>
+        <description><![CDATA[Дозволяє видалили рекламу з сайтів з іспанською та португальською мовами.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Spanish/Portuguese filter]]></name>
+        <description><![CDATA[Filter that enables blocking of ads on websites in Spanish and Portuguese.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Испано-португальский фильтр]]></name>
+        <description><![CDATA[Фильтр, позволяющий убрать рекламу с сайтов на испанском и португальском языках.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Spanischer/Portugiesischer Filter]]></name>
+        <description><![CDATA[Filter, der das Entfernen von Anzeigen auf Websites mit spanischen/portugiesischen Inhalt ermöglicht.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro para español/portugués]]></name>
+        <description><![CDATA[Filtro que permite el bloqueo de anuncios de sitios web en español y portugués.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro espanhol/português]]></name>
+        <description><![CDATA[Filtro que permite o bloqueio de anúncios em sites em espanhol e português.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za španski/portugalski]]></name>
+        <description><![CDATA[Filter koji omogućava brisanje oglasa na sajtovima na španskom i portugalskom.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[スペイン語/ポルトガル語フィルター。]]></name>
+        <description><![CDATA[スペイン語とポルトガル語のウェブサイト上にある広告をブロックするフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[10]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Filter for useful ads]]></name>
+    <description><![CDATA[Filter that unblocks ads that may be useful to users.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#useful]]></homepage>
+    <version><![CDATA[1.0.0.77]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-12T20:26:51.075+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[5]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=10]]></subscriptionUrl>
+    <languages/>
+    <i18n>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Фільтр корисної реклами]]></name>
+        <description><![CDATA[Фільтр, розблокуючий рекламу, яка може бути корисна користувачам (контекстна реклама у пошукових системах).]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Filter for useful ads]]></name>
+        <description><![CDATA[Filter that unblocks ads, which may be useful to users.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Фильтр полезной рекламы]]></name>
+        <description><![CDATA[Фильтр, разблокирующий рекламу, которая может быть полезна пользователям.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Filter für nützliche Werbung]]></name>
+        <description><![CDATA[Filter zulässt die Anzeigen, die für Benutzer hilfreich sein können.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro para anuncios útiles]]></name>
+        <description><![CDATA[Filtro que desbloquea anuncios, que podría ser útil para los usuarios.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro para anúncios úteis]]></name>
+        <description><![CDATA[Filtro que desbloqueia anúncios, que podem ser úteis para os usuários.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Filter za korisne oglase]]></name>
+        <description><![CDATA[Filter koji odblokira reklame koje mogu biti korisne za korisnike.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[有益広告フィルター。]]></name>
+        <description><![CDATA[ユーザーにとって有益な広告をブロック解除するフィルター。]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[11]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Mobile ads filter]]></name>
+    <description><![CDATA[Filter for all known mobile ad networks]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#mobile]]></homepage>
+    <version><![CDATA[1.0.1.32]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T15:46:22.891+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[99]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=11]]></subscriptionUrl>
+    <languages/>
+    <i18n>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Фильтр мобильной рекламы]]></name>
+        <description><![CDATA[Фильтр для мобильных рекламных сетей]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Mobile ads filter]]></name>
+        <description><![CDATA[Filter for all known mobile ad networks]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[ja]]></language>
+        <name><![CDATA[モバイル広告フィルター]]></name>
+        <description><![CDATA[既知のモバイル広告ネットワーク全てを対象としたフィルター]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[de]]></language>
+        <name><![CDATA[Filter für Handywerbung]]></name>
+        <description><![CDATA[Filter für alle üblichen Handy-Werbenetzwerke]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[es]]></language>
+        <name><![CDATA[Filtro de publicidad móvil]]></name>
+        <description><![CDATA[Filtro para todas las redes de anuncios de móvil conocidas]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[pt]]></language>
+        <name><![CDATA[Filtro de anúncios em celular]]></name>
+        <description><![CDATA[FIltrar todas as redes de publicidade móvel conhecidas]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[sr]]></language>
+        <name><![CDATA[Филтер за рекламе на мобилном]]></name>
+        <description><![CDATA[Филтер за све познате мреже реклама на мобилном]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Фільтр мобільної реклами]]></name>
+        <description><![CDATA[Фільтр для блокування реклами на мобільних пристроях.]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[12]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Mobile Safari filter]]></name>
+    <description><![CDATA[Special filter for Mobile Safari. We need a separate filter for Safari because it does not fully support rules syntax.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#mobileSafari]]></homepage>
+    <version><![CDATA[1.0.0.3]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-08T17:03:09.923+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[100]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=12]]></subscriptionUrl>
+    <languages/>
+    <i18n>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Фильтр для мобильного Safari]]></name>
+        <description><![CDATA[Специальный фильтр для мобильного Safari. Нам нужен дополнительный фильтр, так как Safari не полностью поддерживает наши правила фильтрации.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Mobile Safari filter]]></name>
+        <description><![CDATA[Special filter for Mobile Safari. We need a separate filter for Safari because it does not fully support rules syntax.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Фільтр для мобільного Safari]]></name>
+        <description><![CDATA[Спеціальний фільтр для мобільного Safari. Нам потрібен додатковий фільтр, так як Safari не повністю підтримує наші правила фільтрації.]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[13]]></filterId>
+    <groupId><![CDATA[1]]></groupId>
+    <name><![CDATA[Turkish filter]]></name>
+    <description><![CDATA[Filter that enables removing of the ads from websites in Turkish.]]></description>
+    <homepage><![CDATA[http://adguard.com/filters.html#turkish]]></homepage>
+    <version><![CDATA[1.0.0.15]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T16:33:44.202+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[11]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adguard.com/ru/filter-rules.html?id=13]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[tr]]></language>
+    </languages>
+    <i18n>
+      <localization>
+        <language><![CDATA[ru]]></language>
+        <name><![CDATA[Турецкий фильтр]]></name>
+        <description><![CDATA[Фильтр, позволяющий убрать рекламу с сайтов на турецком языке.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[en]]></language>
+        <name><![CDATA[Turkish filter]]></name>
+        <description><![CDATA[Filter that enables removing of the ads from websites in Turkish.]]></description>
+      </localization>
+      <localization>
+        <language><![CDATA[uk]]></language>
+        <name><![CDATA[Турецький фільтр]]></name>
+        <description><![CDATA[Дозволяє прибрати рекламу з сайтів з турецькою мовою.]]></description>
+      </localization>
+    </i18n>
+  </filter>
+  <filter>
+    <filterId><![CDATA[101]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList]]></name>
+    <description><![CDATA[EasyList is the primary subscription that removes adverts from English webpages.]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.45.80]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T14:00:47.587+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[101]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/easylist.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[102]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[ABPindo]]></name>
+    <description><![CDATA[Bahasa Indonesia supplement for EasyList.]]></description>
+    <homepage><![CDATA[http://abpindo.blogspot.com/]]></homepage>
+    <version><![CDATA[1.0.0.23]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-07-10T22:00:54.241+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[102]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://indonesianadblockrules.googlecode.com/hg/subscriptions/abpindo.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[id]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[103]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Bulgarian list]]></name>
+    <description><![CDATA[български supplement for EasyList.]]></description>
+    <homepage><![CDATA[http://stanev.org/abp/]]></homepage>
+    <version><![CDATA[1.0.0.3]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-06-29T22:01:08.385+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[103]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://stanev.org/abp/adblock_bg.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[bg]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[104]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList China]]></name>
+    <description><![CDATA[中文 supplement for EasyList]]></description>
+    <homepage><![CDATA[http://abpchina.org/forum/]]></homepage>
+    <version><![CDATA[1.0.46]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:03:23.876+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[104]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/easylistchina.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[zh]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[105]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList Czech and Slovak]]></name>
+    <description><![CDATA[čeština, slovenčina supplement for EasyList]]></description>
+    <homepage><![CDATA[http://adblocksk.tk/]]></homepage>
+    <version><![CDATA[1.0.0.43]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-08-15T18:01:27.973+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[105]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://raw.github.com/tomasko126/easylistczechandslovak/master/filters.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[sk]]></language>
+      <language><![CDATA[cs]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[106]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList Dutch]]></name>
+    <description><![CDATA[Nederlands supplement for EasyList]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.45.94]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:03:39.966+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[106]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/easylistdutch.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[107]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList Germany]]></name>
+    <description><![CDATA[Deutsch supplement for EasyList]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.46.7]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:03:49.707+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[107]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/easylistgermany.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[108]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList Hebrew]]></name>
+    <description><![CDATA[עברית supplement for EasyList]]></description>
+    <homepage><![CDATA[https://github.com/AdBlockPlusIsrael/EasyListHebrew]]></homepage>
+    <version><![CDATA[1.0.1.72]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-19T18:02:18.159+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[108]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://raw.githubusercontent.com/AdBlockPlusIsrael/EasyListHebrew/master/EasyListHebrew.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[he]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[109]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList Italy]]></name>
+    <description><![CDATA[italiano supplement for EasyList]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.45.72]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:04:15.496+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[109]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/easylistitaly.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[it]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[110]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyList Lithuania]]></name>
+    <description><![CDATA[lietuvių kalba supplement for EasyList]]></description>
+    <homepage><![CDATA[http://margevicius.lt/]]></homepage>
+    <version><![CDATA[1.0.0.36]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-14T22:01:59.639+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[110]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://margevicius.lt/easylistlithuania.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[lt]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[111]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Latvian List]]></name>
+    <description><![CDATA[latviešu valoda supplement for EasyList]]></description>
+    <homepage><![CDATA[https://notabug.org/latvian-list/adblock-latvian]]></homepage>
+    <version><![CDATA[1.0.0.18]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-15T22:02:04.159+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[111]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://notabug.org/latvian-list/adblock-latvian/raw/master/lists/latvian-list.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[lv]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[112]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Liste AR]]></name>
+    <description><![CDATA[العربية supplement for EasyList]]></description>
+    <homepage><![CDATA[https://code.google.com/p/liste-ar-adblock/]]></homepage>
+    <version><![CDATA[1.0.0.87]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-08-26T06:02:35.966+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[112]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://liste-ar-adblock.googlecode.com/hg/Liste_AR.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[ar]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[113]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Liste FR]]></name>
+    <description><![CDATA[français supplement for EasyList]]></description>
+    <homepage><![CDATA[http://adblock-listefr.com/]]></homepage>
+    <version><![CDATA[1.0.45.87]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:04:47.789+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[113]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/liste_fr.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[fr]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[114]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[ROList]]></name>
+    <description><![CDATA[românesc supplement for EasyList]]></description>
+    <homepage><![CDATA[http://www.zoso.ro/rolist]]></homepage>
+    <version><![CDATA[1.0.0.29]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-14T10:02:27.253+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[114]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://www.zoso.ro/pages/rolist.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[ro]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[115]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[RU AdList]]></name>
+    <description><![CDATA[русский, українська supplement for EasyList]]></description>
+    <homepage><![CDATA[https://code.google.com/p/ruadlist/]]></homepage>
+    <version><![CDATA[1.0.45.81]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:05:03.872+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[115]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/advblock.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[116]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Juvander AdblockFinland]]></name>
+    <description><![CDATA[suomi supplement for EasyList]]></description>
+    <homepage><![CDATA[juvander.fi/AdblockFinland]]></homepage>
+    <version><![CDATA[1.0.0.74]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-17T14:02:46.988+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[116]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://raw.githubusercontent.com/wiltteri/wiltteri.txt/master/wiltteri.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[fi]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[117]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Adblock Polska]]></name>
+    <description><![CDATA[polski supplement for EasyList]]></description>
+    <homepage><![CDATA[https://www.facebook.com/adblockpl]]></homepage>
+    <version><![CDATA[1.0.0.52]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2014-11-23T10:02:24.095+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[117]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://raw.githubusercontent.com/adblockpolska/Adblock_PL_List/master/adblock_polska.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[118]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[EasyPrivacy]]></name>
+    <description><![CDATA[privacy protection supplement for EasyList]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.45.67]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:05:27.043+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[118]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/easyprivacy.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[119]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Icelandic ABP List]]></name>
+    <description><![CDATA[íslenska supplement for EasyList]]></description>
+    <homepage><![CDATA[http://adblock.gardar.net/]]></homepage>
+    <version><![CDATA[1.0.0.17]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-07-03T18:03:15.767+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[119]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adblock.gardar.net/is.abp.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[is]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[120]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Norsk adblockliste]]></name>
+    <description><![CDATA[norsk supplement for EasyList]]></description>
+    <homepage><![CDATA[http://home.fredfiber.no/langsholt/]]></homepage>
+    <version><![CDATA[1.0.0.1]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2014-06-30T12:57:57.388+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[120]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://home.fredfiber.no/langsholt/adblock.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[no]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[121]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[void.gr]]></name>
+    <description><![CDATA[ελληνικά supplement for EasyList]]></description>
+    <homepage><![CDATA[http://www.void.gr/kargig/blog/greek-adblock-plus-filter/]]></homepage>
+    <version><![CDATA[1.0.0.41]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-11T22:03:42.308+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[121]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://www.void.gr/kargig/void-gr-filters.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[el]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[122]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Fanboy's Annoyances]]></name>
+    <description><![CDATA[removes online annoyances (includes Fanboy's Social Blocking List) supplement for EasyList]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.45.91]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:05:57.613+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[122]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[123]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Fanboy's Social Blocking List]]></name>
+    <description><![CDATA[removes social media integration supplement for EasyList]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.45.79]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:06:06.892+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[123]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/fanboy-social.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[200]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[ABP Japanese Filters]]></name>
+    <description><![CDATA[日本語]]></description>
+    <homepage><![CDATA[https://code.google.com/p/adblock-plus-japanese-filter/]]></homepage>
+    <version><![CDATA[1.0.1.93]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-06-30T18:03:42.419+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[200]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://raw.githubusercontent.com/k2jp/abp-japanese-filters/master/abp_jp.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[201]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Czech List]]></name>
+    <description><![CDATA[čeština]]></description>
+    <homepage><![CDATA[http://dajbych.net/adblock/]]></homepage>
+    <version><![CDATA[1.0.0.2]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2014-08-16T15:04:58.025+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[201]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adblock.dajbych.net/adblock.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[202]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Filtros Nauscopicos]]></name>
+    <description><![CDATA[español]]></description>
+    <homepage><![CDATA[http://nauscopio.nireblog.com/cat/filtrado]]></homepage>
+    <version><![CDATA[1.0.0.4]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-02-20T18:48:19.428+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[202]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://abp.mozilla-hispano.org/nauscopio/filtros.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[203]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[hufilter]]></name>
+    <description><![CDATA[magyar]]></description>
+    <homepage><![CDATA[https://github.com/szpeter80/hufilter/wiki]]></homepage>
+    <version><![CDATA[1.0.0.16]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-08-19T02:04:17.826+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[203]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://www.hufilter.hu/hufilter.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[204]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Peter Lowe's list]]></name>
+    <description><![CDATA[English]]></description>
+    <homepage><![CDATA[http://pgl.yoyo.org/adservers/]]></homepage>
+    <version><![CDATA[1.0.1.45]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-18T18:04:45.780+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[204]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&mimetype=plaintext]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[205]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Schacks Adblock Plus liste]]></name>
+    <description><![CDATA[dansk]]></description>
+    <homepage><![CDATA[http://henrik.schack.dk/adblock/]]></homepage>
+    <version><![CDATA[1.0.0.96]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-16T14:04:57.862+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[205]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://adblock.schack.dk/block.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[206]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Xfiles]]></name>
+    <description><![CDATA[italiano]]></description>
+    <homepage><![CDATA[http://noads.it/]]></homepage>
+    <version><![CDATA[1.0.0.37]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-14T14:09:00.176+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[206]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://dl.dropboxusercontent.com/u/1289327/abpxfiles/filtri.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[207]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Adblock Warning Removal List]]></name>
+    <description><![CDATA[removes anti-adblock warnings and other obtrusive messages]]></description>
+    <homepage><![CDATA[https://easylist.adblockplus.org/]]></homepage>
+    <version><![CDATA[1.0.45.85]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:07:09.773+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[207]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/antiadblockfilters.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[208]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Malware Domains]]></name>
+    <description><![CDATA[malware protection]]></description>
+    <homepage><![CDATA[http://malwaredomains.com/]]></homepage>
+    <version><![CDATA[1.0.45.75]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:07:18.186+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[208]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/malwaredomains_full.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[209]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Prebake]]></name>
+    <description><![CDATA[filters obtrusive EU cookie law notices]]></description>
+    <homepage><![CDATA[http://liamja.co.uk/Prebake/]]></homepage>
+    <version><![CDATA[1.0.0.85]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:07:26.627+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[209]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://raw.github.com/liamja/Prebake/master/obtrusive.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[210]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Spam404]]></name>
+    <description><![CDATA[blocks scam sites]]></description>
+    <homepage><![CDATA[http://www.spam404.com/]]></homepage>
+    <version><![CDATA[1.0.1.24]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-09-19T22:05:08.350+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[210]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://spam404bl.com/spam404scamlist.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[211]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Anti-Adblock Killer | Reek]]></name>
+    <description><![CDATA[Anti-Adblock Killer | Filters for Adblockers]]></description>
+    <homepage><![CDATA[https://github.com/reek/anti-adblock-killer]]></homepage>
+    <version><![CDATA[1.0.1.48]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-17T06:05:23.015+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[211]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://raw.githubusercontent.com/reek/anti-adblock-killer/master/anti-adblock-killer-filters.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[212]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[RU AdList: Counters]]></name>
+    <description><![CDATA[Дополнение против счетчиков]]></description>
+    <homepage><![CDATA[https://code.google.com/p/ruadlist/]]></homepage>
+    <version><![CDATA[1.0.42.41]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:07:49.084+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[212]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/cntblock.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[213]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[RU AdList: BitBlock]]></name>
+    <description><![CDATA[Дополнение против мусора]]></description>
+    <homepage><![CDATA[https://code.google.com/p/ruadlist/]]></homepage>
+    <version><![CDATA[1.0.42.67]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T18:07:57.359+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[213]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://easylist-downloads.adblockplus.org/bitblock.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[214]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[ABPVN List]]></name>
+    <description><![CDATA[vietnamese]]></description>
+    <homepage><![CDATA[http://abpvn.com/]]></homepage>
+    <version><![CDATA[1.0.1.2]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-03T06:05:28.440+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[214]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://abpvn.com/filter/abpvn-53fde4f714c78.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[vn]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[215]]></filterId>
+    <groupId><![CDATA[2]]></groupId>
+    <name><![CDATA[Fanboy's Enhanced Tracking List]]></name>
+    <description><![CDATA[filters]]></description>
+    <homepage><![CDATA[https://secure.fanboy.co.nz/]]></homepage>
+    <version><![CDATA[1.0.0.85]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-16T06:05:46.689+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[215]]></displayNumber>
+    <subscriptionUrl><![CDATA[https://secure.fanboy.co.nz/enhancedstats.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[216]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Adblock polskie reguly]]></name>
+    <description><![CDATA[polski filtr]]></description>
+    <homepage><![CDATA[http://certyficate.it/polski-filtr-adblock/]]></homepage>
+    <version><![CDATA[1.0.2.16]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-19T18:07:10.763+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[216]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://www.certyficate.it/adblock/adblock.txt]]></subscriptionUrl>
+    <languages>
+      <language><![CDATA[pl]]></language>
+    </languages>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[217]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[Adblock polskie reguly cookies]]></name>
+    <description><![CDATA[polski filtr cookies]]></description>
+    <homepage><![CDATA[http://certyficate.it/polski-filtr-adblock/]]></homepage>
+    <version><![CDATA[1.0.0.46]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-20T06:05:48.130+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[217]]></displayNumber>
+    <subscriptionUrl><![CDATA[http://www.certyficate.it/adblock/adblock_cookies.txt]]></subscriptionUrl>
+    <languages/>
+    <i18n/>
+  </filter>
+  <filter>
+    <filterId><![CDATA[218]]></filterId>
+    <groupId><![CDATA[3]]></groupId>
+    <name><![CDATA[EstonianList]]></name>
+    <description><![CDATA[Estonian filtr]]></description>
+    <homepage><![CDATA[adblock.ee]]></homepage>
+    <version><![CDATA[1.0.0.5]]></version>
+    <expires><![CDATA[21600]]></expires>
+    <timeUpdated><![CDATA[2015-10-05T22:06:16.982+04:00]]></timeUpdated>
+    <displayNumber><![CDATA[218]]></displayNumber>
+    <languages/>
+    <i18n/>
+  </filter>
+</filters-list>
