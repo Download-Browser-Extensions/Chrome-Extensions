@@ -1,0 +1,46 @@
+{
+   "background": {
+      "scripts": [ "clientFeatures.js", "background.js", "clickstream.js", "ylc_1.9.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/logo_disabled_19.png",
+         "38": "icons/logo_disabled_38.png"
+      },
+      "default_title": "Click here to sign in to Yahoo"
+   },
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "https://www.yahoo.com/favicon.ico",
+         "is_default": true,
+         "keyword": "Yahoo",
+         "name": "Yahoo Web",
+         "search_url": "https://search.yahoo.com/search?p={searchTerms}&fr=dss_yset_chr__PARAM__",
+         "suggest_url": "https://search.yahoo.com/sugg/ie?output=fxjson&command={searchTerms}&nResults=10"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "inject.js" ],
+      "matches": [ "http://*.yahoo.com/*", "https://*.yahoo.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' http://localhost https://yui-s.yahooapis.com https://nano.data.toolbar.yahoo.com https://s.yimg.com https://s1.yimg.com https://sxp.yimg.com https://us.data.toolbar.yahoo.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "Our extension provides real-time Yahoo Mail alerts & one-click access to your inbox. It also sets your search to Yahoo.",
+   "icons": {
+      "128": "ynano_128.png",
+      "16": "ynano.png",
+      "48": "ynano_48.png"
+   },
+   
+
+   "manifest_version": 2,
+   "minimum_chrome_version": "49.0.0.0",
+   "name": "Yahoo Mail Notification Extension",
+   "options_page": "options.html",
+   "permissions": [ "alarms", "contextMenus", "cookies", "idle", "storage", "tabs", "webRequest", "webRequestBlocking", "webNavigation", "http://*.yahoo.com/*", "https://*.yahoo.com/*", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1.514",
+   "web_accessible_resources": [ "installer_defines.json", "chrome_bg_win.png", "chrome_bg_mac.png" ]
+}

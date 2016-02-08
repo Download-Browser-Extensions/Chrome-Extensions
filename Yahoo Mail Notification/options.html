@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yahoo Extension</title>
+    <style type="text/css">
+        .banner { background-color: #E8E8E8;}
+        .logo, .bannerTitle {display: inline-block;}
+        .bannerTitle {
+            padding-bottom: 40px;
+            padding-left: 40px;
+            font-size: 3.5em;
+            font-weight: bold;
+            vertical-align: text-bottom;
+        }
+        .bannerContent {
+            padding-left: 80px;
+            padding-bottom: 30px;
+            padding-top: 10px;
+        }
+        .settingsArea {
+            padding-left: 80px;
+            padding-top: 30px;
+        }
+        .settingsTitle {
+            font-size: 1.8em;
+            padding-bottom: 15px;
+        }
+        .choices {
+            font-size: 1.3em;
+        }
+        #status {
+            padding-top: 40px
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <div class="bannerContent">
+        <span class="logo">
+            <img src="icons/logo_128.png"/>
+        </span>
+        <span class="bannerTitle">
+            <label id="i18n_extName">Yahoo Extension</label>
+        </span>
+    </div>
+</div>
+<div class="settingsArea">
+    <div class="settingsTitle">
+        <label id="i18n_optionstitle">General Options</label>
+    </div>
+    <div class="choices">
+        <div><input type="radio"  name="option1" id="option1true" > <label id="i18n_optionsnotifytrue">I want to see notifications </label></div>
+        <div><input type="radio"  name="option1" id="option1false" > <label id="i18n_optionsnotifyfalse">I don't want to see notifications</label></div>
+    </div>
+
+    <div id="status"></div>
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>

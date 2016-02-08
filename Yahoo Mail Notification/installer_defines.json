@@ -1,0 +1,81 @@
+{
+  "NanoCoreDefines":
+  {
+    "nanoFeedURL":"https://nano.data.toolbar.yahoo.com/ytoolbar/nanoclients/php/nanoFeedYset.php",
+    "extensionID":"YSet-Mail",
+    "extensionName":"Yahoo Mail Notification Extension",
+    "cspInjectDomains":["http://*.yimg.com", "https://*.yimg.com"],
+    "allowedCallDomains":["yimg.com","yahooapis.com","yahoo.com"],
+    "needDetectPluginID":"YSet",
+    "defaultPageParams":"@loc:pageParams",
+    "nanoBridgeJSOverride":"https://s.yimg.com/nt/ynano/v1/js/nanobridgeinterface-20140604.js",
+    "recordUninstallURLOverride":"https://s.yimg.com/nt/ynano/v1/html/recorduninstall-20140529.html?UUID=_UUID_&pluginID=_PLUGINID_&ts=_TS_&beaconURL=_BEACONURL_",
+    "detectUninstallURLOverride":"https://s.yimg.com/nt/ynano/v1/html/detectuninstall-20140409.5346098e.html?UUID=_UUID_&ts=_TS_&domainCur=_CURRENTDOMAIN_",
+    "reCalcNewTabOnInstall":true,
+    "extensionAliases":
+    [
+      "acjpdakpjonkfmggcmanlhdakfkhloii",
+      "anjcefhacgmnpmemmmmamajmpejdmneh",
+      "pbhekinjhijlbgaombodiiconikmanon",
+      "eihhgekonheiliaidomffpplfhecmkag"
+    ],
+    "yahooDomains":
+    [
+       "yahoo.com",
+       "yahoo.co.jp",
+       "yahoo.co.uk"
+    ],
+    "browserActionConfig":
+    {
+        "navUrl": "mailNotifyConfig",
+        "newTab": true,
+        "badgeColor": "#e04544"
+    },
+    "mailNotifyConfig":
+    {
+        "newTab": true,
+        "mailNotify": true,
+        "polling_ms": 300000,
+        "notificationLifetime": 8000,
+        "queryLimit": 4,
+        "tooltipLoggedOut": "Click here to sign in to Yahoo",
+        "tooltipLoggedIn": "Yahoo Mail Notifier",
+        "firstRunMessage": "One click access to your inbox so you can search, surf and scan mail with ease",
+        "firstRunTitle": "Now featuring desktop notifications",
+        "crumbUrl": "https://ucs.query.yahoo.com/v1/test/getcrumb",
+        "mailAlertUrl" : "https://ucs.query.yahoo.com/v1/console/yql?",
+        "onClickNav" : "https://mail.yahoo.com",
+        "yqlQuery" : "select messageInfo.from.name, messageInfo.receivedDate, messageInfo.mid from ymail.messages where messageInfo.flags.isRead=0 limit "
+    },
+    "bucketConfig":
+    {
+        "upgradePath":
+        {
+            "freshInstall": "original_bucket"
+        },
+        "permissions": 
+        {
+        }
+    },
+    "trackingData":
+    [{
+        "trackEvt": "mailClick",
+        "trackParams": 
+            {
+                "bcookie": "{bcookie}",
+                "dssbwsr": "Chrome",
+                "dssos": "{os}",
+                "intl": "us",
+                "lang": "{lang}",
+                "src": "mail",
+                "t0": "{clickMethod}",
+                "auth": "{auth}",
+                "sttrprt": "yahoo",
+                "sttrimp": "dssyset_intst2_mail_chr_us"
+            },
+        "useYLC": true,
+        "trackSpaceID": 978500286
+    }]
+  }
+}
+

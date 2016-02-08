@@ -1,0 +1,95 @@
+{
+   "extDesc": {
+      "description": "Localized extension description - MUST be under 130 chars",
+      "message": "Our extension provides real-time Yahoo Mail alerts & one-click access to your inbox. It also sets your search and tabs to Yahoo."
+   },
+   "extName": {
+      "description": "Localized extension name",
+      "message": "Yahoo Extension"
+   },
+   "mailNotify_FirstRunMessage": {
+      "description": "Message found in the first run notification",
+      "message": "One click access to your inbox so you can search, surf and scan mail with ease"
+   },
+   "mailNotify_FirstRunTitle": {
+      "description": "Title found in the first run notification",
+      "message": "Now featuring desktop notifications"
+   },
+   "mailNotify_NotifyMsg1Generic": {
+      "description": "Notification for 1 generic new mail",
+      "message": "You have new mail"
+   },
+   "mailNotify_NotifyMsgXGeneric": {
+      "description": "Notification for X+ generic mails",
+      "message": "You have $COUNT$+ new messages",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "mailNotify_NotifyMsgXSpecific": {
+      "description": "Notification for X new mail from Y person",
+      "message": "$COUNT$ new mail from $SENDER$",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         },
+         "sender": {
+            "content": "$2"
+         }
+      }
+   },
+   "mailNotify_OptionsNotifyFalse": {
+      "description": "Option choice to disable notifications",
+      "message": "I don't want to see notifications"
+   },
+   "mailNotify_OptionsNotifyTrue": {
+      "description": "Option choice to enable notifications",
+      "message": "I want to see notifications"
+   },
+   "mailNotify_OptionsSaved": {
+      "description": "Text shown after an option is selected by the user",
+      "message": "Options saved."
+   },
+   "mailNotify_OptionsTitle": {
+      "description": "Title for the options.html page",
+      "message": "General Options"
+   },
+   "mailNotify_TooltipLoggedIn": {
+      "description": "Tooltip shown on the browserAction icon when user is logged in",
+      "message": "Yahoo Mail Notifier"
+   },
+   "mailNotify_TooltipLoggedOut": {
+      "description": "Tooltip shown on the browserAction icon when user is logged out",
+      "message": "Click here to sign in to Yahoo"
+   },
+   "pageParams": {
+      "description": "Localized in page parameters used for new tab page + tracking - dev will translate, not localizers",
+      "message": "nt_o=https%3A%2F%2Fwww.yahoo.com%2F%3Ffr%3D{{ostype,win:yset%5Fchr%5Fwin,mac:yset%5Fchr%5Fmac,def:yset%5Fchr}}%26tab%3Dchrome&track_s=1197716352&track_p=setprt:yahoo,setimp:{{extimp|hps>dss_yset_mktg_chr_us|dss_yset_chrstore_chr_sb_us}},event_type:system,t1:YExtPostInstallSummary,prevg:{formerSP},src:{{extsrc|hps|store}}&track_s_uninstall=151340047&track_p_uninstall=intl:us,frcode:{{extimp|hps>dss_yset_mktg_chr_us|dss_yset_chrstore_chr_sb_us}},ver:YNewTab_2_0,idate:{installDateFmt},src:{{extsrc|hps|store}}"
+   },
+   "srchProvDomain": {
+      "description": "Localized search provider domain - dev will translate, not localizers",
+      "message": "search.yahoo.com"
+   },
+   "srchProvName": {
+      "description": "Localized search provider name- must not collide with built-in names for Y! SP, which is why we used 'Yahoo Web' in English.",
+      "message": "Yahoo Web"
+   },
+   "srchProvPath": {
+      "description": "Localized search provider path - dev will translate, not localizers",
+      "message": "search?p={searchTerms}&fr=dss_yset_chr__PARAM__"
+   },
+   "srchSuggDomain": {
+      "description": "Localized search suggestion domain - dev will translate, not localizers",
+      "message": "search.yahoo.com"
+   },
+   "srchSuggPath": {
+      "description": "Localized search suggestion URL path - dev will translate, not localizers",
+      "message": "sugg/ie?output=fxjson&command={searchTerms}&nResults=10"
+   },
+   "supercharged": {
+      "description": "Localized supercharger pageAction tooltip",
+      "message": "The Yahoo Extension is making this page faster"
+   }
+}
