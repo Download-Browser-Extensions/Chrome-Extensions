@@ -1,0 +1,113 @@
+{
+   "nt_header_images": {
+      "message": "Fotografia"
+   },
+   "nt_header_maps": {
+      "message": "Mapas"
+   },
+   "nt_header_videos": {
+      "message": "Video"
+   },
+   "nt_header_web": {
+      "message": "Web"
+   },
+   "nt_search": {
+      "message": "Pesquisa"
+   },
+   "nt_search_news": {
+      "message": "Notícia"
+   },
+   "nt_search_term": {
+      "message": "Digite o termo de pesquisa que você"
+   },
+   "sd_add_whitelist": {
+      "message": "Clique para adicionar no whitelist"
+   },
+   "sd_cancel": {
+      "message": "cancelar"
+   },
+   "sd_cancel_file": {
+      "message": "Cancelar arquivo"
+   },
+   "sd_clean": {
+      "message": "O arquivo está pronto para ser aberto."
+   },
+   "sd_clean_short": {
+      "message": "Limpo"
+   },
+   "sd_complete": {
+      "message": "A digitalização está concluída. Este relatório estará pronto em alguns instantes ..."
+   },
+   "sd_delete": {
+      "message": "deletar"
+   },
+   "sd_delete_file": {
+      "message": "Deletar arquivo"
+   },
+   "sd_downloading": {
+      "message": "Baixando"
+   },
+   "sd_hide_reports": {
+      "message": "esconder relatórios"
+   },
+   "sd_isdownloading": {
+      "message": "O arquivo está baixando"
+   },
+   "sd_last_downloaded": {
+      "message": "Últimos arquivos baixados"
+   },
+   "sd_link_review": {
+      "message": "Aqui"
+   },
+   "sd_no": {
+      "message": "não"
+   },
+   "sd_open_file": {
+      "message": "Abrir arquivo"
+   },
+   "sd_open_folder": {
+      "message": "Abrir em pasta"
+   },
+   "sd_popup_download": {
+      "message": "o download ? "
+   },
+   "sd_popup_message": {
+      "message": "Você tem certeza que quer "
+   },
+   "sd_ready_open": {
+      "message": "The file is ready to be open"
+   },
+   "sd_rem_whitelist": {
+      "message": "Clique para remover dos whitelist"
+   },
+   "sd_report_notarrived": {
+      "message": "Este relatório ainda não chegou, você pode tentar reenviá-lo ou abri-lo de qualquer maneira"
+   },
+   "sd_resend": {
+      "message": "Reenviar relatórios"
+   },
+   "sd_review": {
+      "message": "Nos ajude a fazer um produto melhor, envie seus comentários e sugestões"
+   },
+   "sd_scanning": {
+      "message": "Estamos digitalizando para detectar phishing e malware.."
+   },
+   "sd_show_reports": {
+      "message": "mostrar relatórios"
+   },
+   "sd_suspicious": {
+      "message": "O arquivo é suspeito para download. Consulte o relatório completo da digitalização antes de baixar."
+   },
+   "sd_suspicious_short": {
+      "message": "Suspeito"
+   },
+   "sd_validate": {
+      "message": "validar"
+   },
+   "sd_whitelisted": {
+      "message": "Site lista branca"
+   },
+   "sd_yes": {
+      "message": "sim"
+   }
+}

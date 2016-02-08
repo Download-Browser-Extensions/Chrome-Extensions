@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html ng-app="app:newtab" ng-controller="newtabcontroller">
+<head>
+    <title ng-bind="title"></title>
+    <script src="scripts/libs/angular.min.js"></script>
+    <script src="scripts/libs/base64.js" async></script>
+    <script src="/scripts/filters/i18n.js" async></script>
+    <script src="/scripts/filters/filters.js" async></script>
+    <script src="/scripts/newtab.js" defer></script>
+    <script src="contentScripts/handle.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="content/style/newTab.css">
+    <link rel="stylesheet" type="text/css" href="contentScripts/handle.css">
+</head>
+<body ng-cloak ng-style="body">
+    <div ng-init="init()" class="container">
+
+        <div class="header" style="font-size:16px;" ng-model="headerIsActive" ng-show="headerIsActive">
+            <ul>
+                <li ng-click="liActif = 'web'" ng-class="{'active' : liActif == 'web' }"><a ng-model="optionSearch[1].link.web" href="{{optionSearch[1].link.web}}">{{'nt_header_web' |i18n}}</a></li>
+                <li ng-click="liActif = 'images'" ng-class="{'active' : liActif == 'images' }"><a ng-model="optionSearch[1].link.images" href="{{optionSearch[1].link.images}}">{{'nt_header_images' |i18n}}</a></li>
+                <li ng-click="liActif = 'video'" ng-class="{'active' : liActif == 'video' }"><a ng-model="optionSearch[1].link.video" href="{{optionSearch[1].link.video}}">{{'nt_header_videos' |i18n}}</a></li>
+                <li ng-click="liActif = 'maps'" ng-class="{'active' : liActif == 'maps' }"><a ng-model="optionSearch[1].link.maps" href="{{optionSearch[1].link.maps}}">{{'nt_header_maps' |i18n}}</a></li>
+                <li ng-click="liActif = 'news'" ng-class="{'active' : liActif == 'news' }"><a ng-model="optionSearch[1].link.news" href="{{optionSearch[1].link.news}}">{{'nt_header_news' |i18n}}</a></li>
+            </ul>
+        </div>
+        <form class="formSearch" ng-submit="launchSearch()">
+            <input ng-model="search" type="text" placeholder="{{'nt_search_term' |i18n}}" class="searchInput" /><div class="searchButton" ng-click="launchSearch()">{{'nt_search' |i18n}}</div>
+        </form>
+
+        <div ng-style="{'color': 'rgb(' + text.color[0] + ',' + text.color[1] + ',' + text.color[2] + ')'}" class="titleWrapper">
+            <h1>{{text.title}}</h1>
+            <h2>{{text.subtitle}}</h2>
+        </div>
+
+        <div class="quicklinks">
+            <div class="quicklink" ng-repeat="quicklink in quicklinks">
+                <a href="#" ng-click="newTab(quicklink.url)">
+                    <img ng-src="{{quicklink.icon}}" />
+                </a>
+            </div>
+        </div>
+        <div style="position: absolute; bottom: 10px; width: 100%; ">
+            <div class="footer" ng-model="footerIsActive" ng-show="footerIsActive">
+                <ul class="header" style="margin-left: auto; margin-right: auto;">
+                    <li ng-repeat="link in footerLinks ">
+                        <a ng-if="link.link != ''" target="_blank" href="{{link.link}}">{{link.name}}</a>
+                        <span ng-if="link.link == ''">{{link.name}}</span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

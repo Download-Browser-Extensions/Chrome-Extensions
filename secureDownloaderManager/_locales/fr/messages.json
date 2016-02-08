@@ -1,0 +1,113 @@
+{
+   "nt_header_images": {
+      "message": "Images"
+   },
+   "nt_header_maps": {
+      "message": "Maps"
+   },
+   "nt_header_news": {
+      "message": "Actualités"
+   },
+   "nt_header_videos": {
+      "message": "Videos"
+   },
+   "nt_header_web": {
+      "message": "Web"
+   },
+   "nt_search": {
+      "message": "Recherche"
+   },
+   "nt_search_term": {
+      "message": "Saisissez votre recherche"
+   },
+   "sd_add_whitelist": {
+      "message": "Ajouter le site à la liste blanche "
+   },
+   "sd_cancel": {
+      "message": "annuler"
+   },
+   "sd_cancel_file": {
+      "message": "Annuler le fichier"
+   },
+   "sd_clean": {
+      "message": "L'ouverture du fichier est sans risque."
+   },
+   "sd_clean_short": {
+      "message": "Sûre"
+   },
+   "sd_complete": {
+      "message": "Le scan est fini. Le rapport sera disponible bientôt…"
+   },
+   "sd_delete": {
+      "message": "effacer"
+   },
+   "sd_delete_file": {
+      "message": "Effacer le fichier"
+   },
+   "sd_downloading": {
+      "message": "Téléchargement"
+   },
+   "sd_hide_reports": {
+      "message": "cacher les rapports"
+   },
+   "sd_isdownloading": {
+      "message": "Téléchargement en cours"
+   },
+   "sd_last_downloaded": {
+      "message": "Derniers téléchargement"
+   },
+   "sd_link_review": {
+      "message": "ici"
+   },
+   "sd_no": {
+      "message": "non"
+   },
+   "sd_open_file": {
+      "message": "Ouvrir le fichier"
+   },
+   "sd_open_folder": {
+      "message": "Ouvrir le dossier"
+   },
+   "sd_popup_download": {
+      "message": "le téléchargement ? "
+   },
+   "sd_popup_message": {
+      "message": "Etes vous sûre que vous voulez "
+   },
+   "sd_ready_open": {
+      "message": "Le fichier est prêt à être ouvert"
+   },
+   "sd_rem_whitelist": {
+      "message": "Effacer le site de la liste blanche"
+   },
+   "sd_report_notarrived": {
+      "message": "Le rapport n'est pas arrivé, vous pouvez le renvoyer ou ouvrir le fichier."
+   },
+   "sd_resend": {
+      "message": "Renvoyer le rapport"
+   },
+   "sd_review": {
+      "message": "Aidez-nous à améliorer notre produit, envoyez-nous vos avis et suggestion"
+   },
+   "sd_scanning": {
+      "message": "Le scan permet de detecter les malware ainsi que les tentatives de phishing."
+   },
+   "sd_show_reports": {
+      "message": "monter les rapports"
+   },
+   "sd_suspicious": {
+      "message": "L'ouverture du fichier n'est pas sans risque. Veuillez observer le rapport ci-dessous."
+   },
+   "sd_suspicious_short": {
+      "message": "Suspicieux"
+   },
+   "sd_validate": {
+      "message": "valider"
+   },
+   "sd_whitelisted": {
+      "message": "Site web en liste blanche "
+   },
+   "sd_yes": {
+      "message": "oui"
+   }
+}

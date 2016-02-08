@@ -1,0 +1,1 @@
+!function(a){a._gaq=a._gaq||[],_gaq.push(["_setAccount","UA-41600097-4"]),_gaq.push(["_trackPageview"]);a.analytics={trackEvent:function(b,c,d){a._gaq.push(["_trackEvent",b,c,d])}}}(window);

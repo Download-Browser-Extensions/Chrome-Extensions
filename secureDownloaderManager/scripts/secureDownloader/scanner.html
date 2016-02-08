@@ -1,0 +1,111 @@
+﻿<!DOCTYPE HTML>
+<html lang="en" ng-app="sdl:scanner">
+<head>
+    <meta charset="utf-8">
+    <title>Scanning file...</title>
+    <link rel="stylesheet" href="scanner.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="../../contentScripts/handle.css">
+</head>
+<body ng-controller="scanCtrl">
+    <div class="bgShield"></div>
+    <div class="logoWrapper"></div>
+    <div class="name">{{name}}</div>
+    <div id="wrapper" class="container" ng-init="init()">
+        <div ng-show="isVideo && !isWhiteList">
+            <h1>{{"sd_scanning" |i18n}}</h1>
+            <div class="fileName">{{downloadItem.filename}}</div>
+            <div id="fountainG">
+                <div id="fountainG_1" class="fountainG"></div>
+                <div id="fountainG_2" class="fountainG"></div>
+                <div id="fountainG_3" class="fountainG"></div>
+                <div id="fountainG_4" class="fountainG"></div>
+                <div id="fountainG_5" class="fountainG"></div>
+                <div id="fountainG_6" class="fountainG"></div>
+                <div id="fountainG_7" class="fountainG"></div>
+                <div id="fountainG_8" class="fountainG"></div>
+            </div>
+            <div ng-show="isVideo" class="videoWrapper"></div>
+        </div>
+        <div ng-show="!isVerif && !isVideo && !isWhiteList">
+            <h1>{{"sd_complete" |i18n}}</h1>
+            <div class="fileName">{{downloadItem.filename}}</div>
+            <div class="windows8">
+                <div class="wBall" id="wBall_1">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_2">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_3">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_4">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_5">
+                    <div class="wInnerBall"></div>
+                </div>
+            </div>
+        </div>
+        <div ng-switch="Clean" ng-show="!isVideo && isVerif && !isWhiteList">
+            <div class="safe" ng-switch-when="safe">
+                <h1>{{"sd_clean" |i18n}}</h1>
+                <div class="fileName">{{downloadItem.filename}}</div>
+            </div>
+            <div class="notSafe" ng-switch-when="notSafe">
+                <h1>{{"sd_suspicious" |i18n}}</h1>
+                <div class="fileName">{{downloadItem.filename}}</div>
+                <div id="btnReports" ng-hide="showReport" ng-click="showReport = !showReport">{{"sd_show_reports" |i18n}}</div>
+                <div id="Div1" ng-show="showReport" ng-click="showReport = !showReport">{{"sd_hide_reports" |i18n}}</div>
+                <div class="reports">
+                    <div ng-show="showReport" class="reportWrapper" ng-class="{'noGood' : scan.detected}" ng-repeat="scan in scansReport">
+                        <div class="scanName">{{scan.name}}</div>
+                        <div ng-if="!scan.detected" class="virusDescr">{{"sd_clean_short" |i18n}}</div>
+                        <div ng-if="scan.detected" class="virusDescr">{{"sd_suspicious_short" |i18n}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="notReport" ng-switch-when="notReport">
+                <h1>{{"sd_report_notarrived" |i18n}}</h1>
+                <div class="fileName">{{downloadItem.filename}}</div>
+                <div id="btnResend" ng-click="resend()">Resend reports</div>
+            </div>
+        </div>
+        <div ng-show="isWhiteList && !downloadComplete">
+            <h1>{{'sd_isdownloading' |i18n}}</h1>
+            <div class="fileName">{{downloadItem.filename}}</div>
+        </div>
+        <div ng-show="isWhiteList && downloadComplete">
+            <h1>{{'sd_ready_open' |i18n}}</h1>
+            <div class="fileName">{{downloadItem.filename}}</div>
+        </div>
+        <div class="wrapperButton">
+            <div ng-show="!downloadComplete || (isVideo && !isResend)">
+                <div class="open inactive">{{'sd_downloading' |i18n}} {{percent}} <span ng-show="percent>0">%</span></div>
+            </div>
+            <div ng-show="downloadComplete && (!isVideo || isResend)">
+                <div class="open" ng-click="openDownload('file')">{{'sd_open_file' |i18n}}</div>
+                <div class="folder" ng-click="openDownload('folder')">{{'sd_open_folder' |i18n}}</div>
+            </div>
+            <div>
+                <div ng-show="!downloadComplete" ng-click="openPopupDelete('cancel')" class="delete">{{'sd_cancel_file' |i18n}}</div>
+                <div ng-show="downloadComplete" ng-click="openPopupDelete('delete')" class="delete">{{'sd_delete_file' |i18n}}</div>
+            </div>
+        </div>
+    </div>
+    <div ng-show="popupDelete">
+        <div class="popupDelete">
+            <div><span>{{'sd_popup_message' |i18n}} {{textDeletePopup}}   {{'sd_popup_download' |i18n}}</span></div>
+            <div ng-click="deleteDownload()" class="answer"><span>{{'sd_yes' |i18n}}</span></div>
+            <div ng-click="resumeDownload()" class="answer"><span>{{'sd_no' |i18n}}</span></div>
+        </div>
+        <div class="shadowPopup"></div>
+    </div>
+    <script src="../../contentScripts/handle.js"></script>
+    <script src="../libs/jquery.js"></script>
+    <script src="../libs/angular.min.js"></script>
+    <script src="../libs/sdl.js"></script>
+    <script src="scanner.js"></script>
+</body>
+</html>

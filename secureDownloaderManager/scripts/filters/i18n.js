@@ -1,0 +1,1 @@
+angular.module("filters.i18n",[]).filter("i18n",function(){return function(a,b){return a?chrome.i18n.getMessage(a,b):void 0}}).filter("revi18n",function(){return function(a,b){return a?chrome.i18n.getMessage(b,a):void 0}});

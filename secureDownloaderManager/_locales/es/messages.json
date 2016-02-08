@@ -1,0 +1,113 @@
+{
+   "nt_header_images": {
+      "message": "Imágenes"
+   },
+   "nt_header_maps": {
+      "message": "Mapas"
+   },
+   "nt_header_videos": {
+      "message": "Videos"
+   },
+   "nt_header_web": {
+      "message": "Web"
+   },
+   "nt_search": {
+      "message": "buscados"
+   },
+   "nt_search_news": {
+      "message": "Noticias"
+   },
+   "nt_search_term": {
+      "message": "introduzca su búsqueda"
+   },
+   "sd_add_whitelist": {
+      "message": "Clic para añadir en la lista blanca"
+   },
+   "sd_cancel": {
+      "message": "cancelar"
+   },
+   "sd_cancel_file": {
+      "message": "Cancelar archivo"
+   },
+   "sd_clean": {
+      "message": "El archivo es limpio y seguro."
+   },
+   "sd_clean_short": {
+      "message": "Limpio"
+   },
+   "sd_complete": {
+      "message": "La exploración ha sido completada. El informe estará listo en unos momentos ..."
+   },
+   "sd_delete": {
+      "message": "eliminar"
+   },
+   "sd_delete_file": {
+      "message": "Eliminar archivo"
+   },
+   "sd_downloading": {
+      "message": "Descargando"
+   },
+   "sd_hide_reports": {
+      "message": "ocultar informes"
+   },
+   "sd_isdownloading": {
+      "message": "El archivo se está descargando"
+   },
+   "sd_last_downloaded": {
+      "message": "Últimos archivos descargados"
+   },
+   "sd_link_review": {
+      "message": "Aqui"
+   },
+   "sd_no": {
+      "message": "no"
+   },
+   "sd_open_file": {
+      "message": "Abrir archivo"
+   },
+   "sd_open_folder": {
+      "message": "Abrir en carpeta"
+   },
+   "sd_popup_download": {
+      "message": "la descarga?"
+   },
+   "sd_popup_message": {
+      "message": "Seguro que que lo deseas?"
+   },
+   "sd_ready_open": {
+      "message": "El archivo está listo para ser abierto"
+   },
+   "sd_rem_whitelist": {
+      "message": "Clic para eliminar de la lista blanca"
+   },
+   "sd_report_notarrived": {
+      "message": "El informe no ha llegado, usted puede tratar de enviarlo o abrir de todos modos"
+   },
+   "sd_resend": {
+      "message": "Vuelva a enviar informes"
+   },
+   "sd_review": {
+      "message": "Ayúdanos a hacer un mejor producto, dénos tus comentarios y sugerencias"
+   },
+   "sd_scanning": {
+      "message": "Estamos examinando en busca de phishing y malware."
+   },
+   "sd_show_reports": {
+      "message": "mostrar informes"
+   },
+   "sd_suspicious": {
+      "message": "El archivo es sospechoso para descargar. Consulte el informe completo de exploración antes de descargar."
+   },
+   "sd_suspicious_short": {
+      "message": "sospechoso"
+   },
+   "sd_validate": {
+      "message": "validar"
+   },
+   "sd_whitelisted": {
+      "message": "Sitio en la lista blanca"
+   },
+   "sd_yes": {
+      "message": "si"
+   }
+}

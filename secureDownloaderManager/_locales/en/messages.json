@@ -1,0 +1,159 @@
+{
+   "facebook_connect": {
+      "message": "You need to connect !"
+   },
+   "facebook_loading": {
+      "message": "Loading..."
+   },
+   "facebook_login": {
+      "message": "Connect with Facebook"
+   },
+   "facebook_logout": {
+      "message": "Logout"
+   },
+   "nt_header_images": {
+      "message": "Images"
+   },
+   "nt_header_maps": {
+      "message": "Maps"
+   },
+   "nt_header_videos": {
+      "message": "Videos"
+   },
+   "nt_header_web": {
+      "message": "Web"
+   },
+   "nt_search": {
+      "message": "search"
+   },
+   "nt_search_news": {
+      "message": "News"
+   },
+   "nt_search_term": {
+      "message": "Enter your search terms"
+   },
+   "rss_feeds": {
+      "message": "No Feeds..."
+   },
+   "sd_add_whitelist": {
+      "message": "Click to add in whitelist"
+   },
+   "sd_cancel": {
+      "message": "cancel"
+   },
+   "sd_cancel_file": {
+      "message": "Cancel file"
+   },
+   "sd_clean": {
+      "message": "The file is clean and safe."
+   },
+   "sd_clean_short": {
+      "message": "Clean"
+   },
+   "sd_complete": {
+      "message": "The scan is complete. The report will be ready in a few moments…"
+   },
+   "sd_delete": {
+      "message": "delete"
+   },
+   "sd_delete_file": {
+      "message": "Delete file"
+   },
+   "sd_downloading": {
+      "message": "Downloading"
+   },
+   "sd_hide_reports": {
+      "message": "hide reports"
+   },
+   "sd_isdownloading": {
+      "message": "The file is downloading"
+   },
+   "sd_last_downloaded": {
+      "message": "Last downloaded files"
+   },
+   "sd_link_review": {
+      "message": "here"
+   },
+   "sd_no": {
+      "message": "no"
+   },
+   "sd_open_file": {
+      "message": "Open file"
+   },
+   "sd_open_folder": {
+      "message": "Open in folder"
+   },
+   "sd_popup_download": {
+      "message": "the download ? "
+   },
+   "sd_popup_message": {
+      "message": "Are you sure you want to "
+   },
+   "sd_ready_open": {
+      "message": "The file is ready to be open"
+   },
+   "sd_rem_whitelist": {
+      "message": "Click to remove from whitelist"
+   },
+   "sd_report_notarrived": {
+      "message": "The report isn't yet arrived, you can try to resend it or open it anyway"
+   },
+   "sd_resend": {
+      "message": "Resend reports"
+   },
+   "sd_review": {
+      "message": "Help us make a better product, give us your comments and suggestions"
+   },
+   "sd_scanning": {
+      "message": "We are scanning to detect phishing and malware."
+   },
+   "sd_show_reports": {
+      "message": "show reports"
+   },
+   "sd_suspicious": {
+      "message": "The file is suspicious to download. Refer to the full-scan report before downloading."
+   },
+   "sd_suspicious_short": {
+      "message": "Suspicious"
+   },
+   "sd_validate": {
+      "message": "validate"
+   },
+   "sd_whitelisted": {
+      "message": "Whitelisted website"
+   },
+   "sd_yes": {
+      "message": "yes"
+   },
+   "weather_day": {
+      "message": "TODAY"
+   },
+   "weather_search_btn": {
+      "message": "Go"
+   },
+   "weather_search_lbl": {
+      "message": "search"
+   },
+   "weather_temp_max": {
+      "message": "Max: $temp$°",
+      "placeholders": {
+         "temp": {
+            "content": "$1"
+         }
+      }
+   },
+   "weather_temp_min": {
+      "message": "Min: $temp$°",
+      "placeholders": {
+         "temp": {
+            "content": "$1"
+         }
+      }
+   },
+   "youtube_last": {
+      "message": "Last Videos"
+   },
+   "youtube_playlist": {
+      "message": "Playlist"
+   }
+}

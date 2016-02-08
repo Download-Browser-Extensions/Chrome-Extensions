@@ -1,0 +1,23 @@
+{
+   "nt_header_images": {
+      "message": "Fotograflar"
+   },
+   "nt_header_maps": {
+      "message": "Haritalar"
+   },
+   "nt_header_videos": {
+      "message": "Videolar"
+   },
+   "nt_header_web": {
+      "message": "Web"
+   },
+   "nt_search": {
+      "message": "arama"
+   },
+   "nt_search_news": {
+      "message": "Haberler"
+   },
+   "nt_search_term": {
+      "message": "Arama terimlerinizi girin"
+   }
+}
