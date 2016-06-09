@@ -1,0 +1,34 @@
+// Dictionary of default apps to install into new profiles.  Each entry maps
+// the extension's id to its crx's path (relative to this file) and the version
+// of the extension contained in the crx.
+//
+// When an extension is added or removed here, the two lists 'default_apps_list'
+// and 'default_apps_list_linux_dest' in build/common.gypi must also be updated.
+{
+  "bgnkhhnnamicmpeenaelnjfhikgbkllg" : {
+    "external_crx": "Adguard AdBlocker.crx",
+    "external_version": "2.3.8",
+    "is_bookmark_app": true
+  },
+  "monhkdcehmbdgkhgpccaccbbcgcfpjkd" : {
+    "external_crx": "My IP address.crx",
+    "external_version": "1.26"
+  },
+  "cfhdojbkjhnklbpkdaibdccddilifddb" : {
+    "external_crx": "Adblock Plus.crx",
+    "external_version": "1.12"
+  },
+  // Adblock Plus extension
+  "cfhdojbkjhnklbpkdaibdccddilifddb" : {
+    "external_update_url": "https://clients2.google.com/service/update2/crx"
+  },
+  // Adguard AdBlocker extension
+  "bgnkhhnnamicmpeenaelnjfhikgbkllg" : {
+    "external_update_url": "https://clients2.google.com/service/update2/crx"
+  },
+  // My IP address extension
+  "monhkdcehmbdgkhgpccaccbbcgcfpjkd" : {
+    "external_update_url": "https://clients2.google.com/service/update2/crx"
+  }
+}
+
